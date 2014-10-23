@@ -1,0 +1,33 @@
+{
+    "name": "hubot-xmpp-bob",
+    "version": "1.0.0",
+    "description": "A Hubot script to extend XMPP adapter with Bits of Binary support",
+    "main": "index.coffee",
+    "scripts": {
+        "test": "mocha --compilers coffee:coffee-script/register --recursive ./test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nickcaballero/hubot-xmpp-bob.git"
+    },
+    "keywords": [
+        "hubot",
+        "xmbb",
+        "bob"
+    ],
+    "author": "Nick Caballero <https://github.com/nickcaballero>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nickcaballero/hubot-xmpp-bob/issues"
+    },
+    "dependencies": {
+        "coffee-script": "~1.8"
+    },
+    "devDependencies": {
+        "coffee-script": "~1.8",
+        "mocha": "^1.20.0",
+        "chai": "*",
+        "sinon-chai": "*",
+        "sinon": "*"
+    }
+}
