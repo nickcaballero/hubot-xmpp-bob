@@ -1,3 +1,9 @@
+# Description:
+#   Adds Bits of Binary for image URLs
+#
+# Author:
+#   nickcaballero
+
 meld = require 'meld'
 request = require 'request'
 crypto = require 'crypto'
